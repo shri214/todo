@@ -1,0 +1,23 @@
+
+//color definition
+
+$red:#ff0000;
+$light_red:#f06a6a;
+$hardly_light_red:#f1c2c2;
+$hardly_light_yellow:#f1e2c2;
+$light_yellow:#f5c660;
+$yellow:#f9af11;
+$hardly_yellow:#f9f111;
+
+
+//mixin definition 
+@mixin display($d, $ff, $jc, $al){
+   display: $d;
+   flex-flow: $ff;
+   justify-content: $jc;
+   align-items: $al;
+}
+@mixin hight-width($h, $w){
+    height: $h;
+    width: $w;
+}
